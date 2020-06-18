@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <style>
+        .header {
+            background: rgb(20, 134, 9);
+            height: 4rem;
+        }
+
+        .seccion1,.seccion2, .seccion3 {
+            background: red;
+            height: 10rem;
+            text-align: center;
+            font-size: 2rem;
+        }
+
+        .footer {
+            height: 4rem;
+        }
+
+        .footer1{
+            text-align: end;
+        }
+
+
+        @media screen and (max-width: 768px){
+            .header {
+                background: rgb(0, 102, 255);
+            }
+
+            .seccion1 {
+                text-align: left;
+                height: 5rem;
+            }
+
+            .seccion2 {
+                text-align: right;
+                height: 5rem;
+            }
+
+            .seccion3 {
+                background: rgb(20, 134, 9);
+                height: 6rem;
+            }
+
+            .footer1, .footer2{
+                text-align: center;
+            }
+        }
+
+
+        @media screen and (max-width: 576px){
+            .header {
+                background: salmon;
+                text-align: center;
+            }
+
+            .seccion1 {
+                height: 5rem;
+            }
+
+            .seccion2 {
+                background: rgb(0, 102, 255);
+                text-align: center;
+                height: 5rem;
+            }
+
+            .seccion3 {
+                background: red;
+                text-align: right;
+                height: 5rem;
+            }
+        }
+
+    </style>
+    <title>MEDIA QUERY</title>
+</head>
+<body>
+    <h2 class="text-center">MEDIA QUERY - RESPONSIVO</h2>
+    <img src="mediaquery.jpg" alt="">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="header col-12 border">Header</div>
+
+            <div class="col-12">
+                <div class="row">
+                    <div class="seccion1 col-sm-6 col-md-4 border">1</div>
+                    <div class="seccion2 col-sm-6 col-md-4 border">2</div>
+                    <div class="seccion3 col-sm-12 col-md-4 border">3</div>
+                </div>
+            </div>
+
+            <div class="col-12">
+                <div class="footer row">
+                    <div class="footer1 col-md-6 bg-warning border">footer 1</div>
+                    <div class="footer2 col-md-6 bg-warning border">footer 2</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

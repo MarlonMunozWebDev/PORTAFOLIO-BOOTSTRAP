@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>BOOTSTRAP - SISTEMA DE REJILLA</title>
+</head>
+<body>
+    <h2 class="text-center">SISTEMA DE COLUMNAS</h2>
+    <div class="container-fluid">
+        <h3>Pantallas Medianas</h3>
+        <div	class="row">
+            <div class="col-md-8 bg-success border">.col-md-8</div>
+            <div class="col-md-4 bg-success border">.col-md-4</div>
+            </div>
+            <div class="row">
+            <div class="col-md-4 bg-primary border">.col-md-4</div>
+            <div class="col-md-4 bg-primary border">.col-md-4</div>
+            <div class="col-md-4 bg-primary border">.col-md-4</div>
+            </div>
+            <div class="row">
+            <div class="col-md-6 bg-warning border">.col-md-6</div>
+            <div  class="col-md-6 bg-warning border">.col-md-6</div>
+            </div>
+
+            <hr>
+
+            <h3>Pantallas Medianas y Chicas</h3>
+            <!--	En	pantallas	pequeñas	aparecerá	una	columna	que	ocupará	todo	el	ancho
+            y	otra	que	ocupará	la	mitad	de	la	pantalla	-->
+            <div class="row">
+                <div class="col-12	col-md-8 bg-success border">.col-12 .col-md-8</div>
+                <div class="col-6	col-md-4 bg-success border">.col-6 .col-md-4</div>
+            </div>
+            <!--	En	pantallas	medianas	se	indica	que	cada	columna	ocupe	la	mitad
+                del	ancho	disponible	-->
+            <div class="row">
+                <div class="col-6	col-md-4 bg-primary border"">.col-6 .col-md-4</div>
+                <div class="col-6	col-md-4 bg-primary border"">.col-6 .col-md-4</div>
+                <div class="col-6	col-md-4 bg-primary border"">.col-6 .col-md-4</div>
+            </div>
+            <!--	Como	no	se	indica	el	tamaño	para	pantallas	grandes	las	columnas
+                siempre	ocuparán	el	50%	-->
+            <div class="row">
+                <div class="col-6 bg-warning border">.col-6</div>
+                <div class="col-6 bg-warning border">.col-6</div>
+            </div>
+            <hr>
+
+            <h3>Pantallas Medianas , Chicas y ExtrasChicas</h3>
+            <div	class="row">
+                <div class="col-12	col-sm-6	col-md-8 bg-success border">.col-12	.col-sm-6	.col-md-8</div>
+                <div	class="col-6	col-md-4 bg-success border">.col-6	.col-md-4</div>
+                </div>
+                <div	class="row">
+                <div	class="col-6	col-sm-4 bg-primary border">.col-6	.col-sm-4</div>
+                <div	class="col-6	col-sm-4 bg-primary border">.col-6	.col-sm-4</div>
+                <div	class="col-6	col-sm-4 bg-primary border">.col-6	.col-sm-4</div>
+            </div>
+            <hr>
+
+            <h3>Pantallas Medianas , Chicas y ExtrasChicas</h3>
+            <div	class="col-12	col-sm-6	col-md-8	col-lg-9	col-xl-10 bg-primary border">col-12	col-sm-6	col-md-8	col-lg-9</div>
+            
+            <hr>
+
+            <h3>Bootstrap 4 - Columnas Automaticas</h3>
+            <div	class="row">
+                <div	class="col bg-success border">1	de 2</div>
+                <div	class="col bg-success border">2	de 2</div>
+                </div>
+                <div	class="row">
+                <div	class="col bg-primary border">1	de 3</div>
+                <div	class="col bg-primary border">2	de 3</div>
+                <div	class="col bg-primary border">3	de 3</div>
+                </div>
+                
+                <hr>
+
+                <h3>Pantallas Establecidas y Automaticas en algunas</h3>
+                <div	class="col-3	col-sm	col-md-6	col-lg col-xl-8 bg-primary border">col-3	col-sm	col-md-6	col-lg col-xl-8</div>
+                
+                <hr>
+
+                <h3>columnas Mixtas</h3>
+                <div	class="row">
+                    <div	class="col bg-success border">1	de 3</div>
+                    <div	class="col-6 bg-success border">2 de 3	(auto)</div>
+                    <div	class="col bg-success border">3	de 3</div>
+                    </div>
+                    <div	class="row">
+                    <div	class="col-5 bg-primary border">1 de 3	(auto)</div>
+                    <div	class="col bg-primary border">2	de 3</div>
+                    <div	class="col bg-primary border">3	de 3</div>
+                </div>
+
+                <hr>
+
+                <h3>Columnas de Ancho Variable</h3>
+                <div	class="row	justify-content-md-center">
+                    <div	class="col	col-lg-2 bg-primary border">1 de 3</div>
+                    <div	class="col-md-auto bg-primary border">Variable	segun el Contenido</div>
+                    <div	class="col	col-lg-2 bg-primary border">3 de 3</div>
+                    </div>
+                    <div	class="row">
+                    <div	class="col bg-warning border">1	de 3</div>
+                    <div	class="col-md-auto bg-warning border">Variable	segun el Contenido</div>
+                    <div	class="col	col-lg-2 bg-warning border">3 de 3</div>
+                </div>
+
+                <hr>
+
+                <h3>Espaciado entre Columnas</h3>
+                <div	class="row">
+                    <div	class="col-md-4 bg-success border">.col-md-4</div>
+                    <div	class="col-md-4	offset-md-4 bg-success border">.col-md-4	.offset-md-4</div>
+                    </div>
+                    <div	class="row">
+                    <div	class="col-md-3	offset-md-3 bg-primary border">.col-md-3	.offset-md-3</div>
+                    <div	class="col-md-3	offset-md-3 bg-primary border">.col-md-3	.offset-md-3</div>
+                    </div>
+                    <div	class="row">
+                    <div	class="col-md-6	offset-md-3 bg-warning border">.col-md-6	.offset-md-3</div>
+                </div>
+                <hr>
+
+                <h3>Margen entre Columnas Automatico</h3>
+                <div	class="row">
+                    <div	class="col-md-4 bg-primary border">.col-md-4</div>
+                    <div	class="col-md-4	ml-auto bg-primary border">.col-md-4	.ml-auto</div>
+                    </div>
+                    <div	class="row">
+                    <div	class="col-md-3	ml-md-auto bg-success border">.col-md-3	.ml-md-auto</div>
+                    <div	class="col-md-3	ml-md-auto bg-success border">.col-md-3	.ml-md-auto</div>
+                    </div>
+                    <div	class="row">
+                    <div	class="col-auto	mr-auto bg-warning border">.col-auto	.mr-auto</div>
+                    <div	class="col-auto bg-warning border">.col-auto</div>
+                </div>
+
+                <hr>
+
+                <h3>Ordenamiento Error</h3>
+                <p>Si movemos ala izquierda definos todas las columnas</p>
+                <div	class="row">
+                    <div	class="col bg-success border">Primero,	none</div>
+                    <div	class="col	order-12 bg-success border">Segundo,	-12</div>
+                    <div	class="col	order-1 bg-success border">Tercero,	-1</div>				<!--	¡¡CUIDADO!!	-->
+                </div>
+
+                <hr>
+
+                <h3>Ordenamiento Correcto</h3>
+                <div	class="row">
+                    <div	class="col	order-2 bg-success border">Primero,	-2</div>			<!--	Añadimos	el	orden	de	es
+                    ta	columna	-->
+                    <div	class="col	order-12 bg-success border">Segundo,	-12</div>
+                    <div	class="col	order-1 bg-success border">Tercero,	-1</div>
+                </div>
+
+                <hr>
+
+                <h3>Ordenamiento Responsivo</h3>
+                <div	class="row">
+                    <div	class="col-6	order-md-2 bg-success border">1 - 3</div>			<!--	Añadimos	el	orden	de	es
+                    ta	columna	-->
+                    <div	class="col-6	order-md-3 bg-success border">2 - 1</div>
+                    <div	class="col-6	order-md-1 bg-success border">3 - 2</div>
+                    <div	class="col-6	order-md-4 bg-success border">4 - 4</div>
+                </div>
+
+                <hr>
+
+                <h3>Alineamiento Horizontal</h3>
+                <div	class="row	justify-content-start">
+                    <div class="col-4 bg-success border">content-start</div>
+                    <div class="col-4 bg-success border">content-start</div>
+                    </div>
+                    <div class="row	justify-content-center">
+                        <div class="col-4 bg-success border">content-center</div>
+                        <div class="col-4 bg-success border">content-center</div>
+                    </div>
+                    <div class="row	justify-content-end">
+                        <div class="col-4 bg-success border">content-end</div>
+                        <div class="col-4 bg-success border">content-end</div>
+                    </div>
+                    <div class="row	justify-content-around">
+                        <div class="col-4 bg-success border">content-around</div>
+                        <div class="col-4 bg-success border">content-around</div>
+                    </div>
+                    <div class="row	justify-content-between">
+                        <div class="col-4 bg-success border">content-beetwen</div>
+                        <div class="col-4 bg-success border">content-beetwen</div>
+                </div>
+                <hr>
+
+                <h3>Alineamiento Responsivo por Pantalla</h3>
+                <div	class="row m-5	justify-content-center	justify-content-md-start bg-success border">
+					Responsivo
+                </div>
+        </div>
+</body>
+</html>
